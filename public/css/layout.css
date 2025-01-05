@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Coolvetica";
+    src: url("/../fonts/Coolvetica/coolveticarg.otf")
+}
+
+@font-face {
+    font-family: "LemonMilk";
+    src: url('/../fonts/LemonMilk/LEMONMILK-Bold.otf');
+}
+
+@font-face {
+    font-family: "LemonMilk-reg";
+    src: url('/../fonts/LemonMilk/LEMONMILK-Regular.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    transition: all .5s;
+}
+html{
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: transparent;
+    color: #eef2e6;
+    padding: 2em 2em;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: ease-in-out 0.2s;
+    font-size: 1rem;
+    z-index: 999;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #eef2e6;
+    padding: 0.2em 0.5em;
+    user-select: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffd621;
+}
+
+.footer {
+    background-color: #201e1e;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eef2e6;
+    padding: 2em 0em;
+    bottom: 0;
+}
+
+.footer p{
+    font-size: 1rem;
+}
+
+/* .content {
+    min-height: 85vh;
+    padding-top: 1em;
+} */
+
+/* .content form {
+    padding-inline: 3em;
+} */
+
+.searchbar {
+    width: 32em;
+}
+
+@media (min-width: 900px) {
+    .searchbar {
+        margin: 0 2em;
+    }
+}

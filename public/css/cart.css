@@ -1,0 +1,65 @@
+.container {
+    min-height: 60vh;
+    margin-bottom: 2em;
+    padding-top: 5em;
+}
+.navbar{
+    background-color: #201e1e;
+}
+h1{
+    font-family: 'Coolvetica';
+}
+.trash img {
+    width: 32em;
+    height: auto;
+}
+
+.checkout-form {
+    min-height: 20em;
+}
+
+.checkout-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.checkout-form form label {
+    margin-bottom: 0.5em;
+}
+
+.checkout-form form button {
+    width: 20%;
+}
+
+.cart-table button {
+    width: 6em;
+    margin-bottom: 0.4em;
+    /* border-radius: 1.2em; */
+}
+.navbar{
+    top: 0;
+}
+.cart-table img {
+    /* scale: 0.6; */
+    border-radius: 1em;
+    /* margin-left: -4em; */
+    /* margin-right: -2em; */
+    width: 5em;
+    height: 5em;
+}
+
+tbody {
+    font-size: 12px;
+}
+.muted{
+    font-size: 1rem;
+}
+.total-price {
+    font-weight: 700;
+}
+
+.grand-total {
+    font-weight: 900;
+    color: #3d8361;
+}

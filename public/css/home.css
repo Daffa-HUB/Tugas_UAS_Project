@@ -1,0 +1,206 @@
+
+.banner {
+  width: 100%;
+  margin-inline: auto;
+  height: 65em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/FotoKedai2.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+
+.banner h1 {
+  color: #fff;
+  font-size: 10rem;
+  /* line-height: 53px; */
+  margin: 0;
+  font-family: 'Coolvetica';
+  font-weight: 400;
+  margin-top: -1.5em;
+  
+}
+a{
+  text-decoration: none;
+  
+}
+
+h2{
+  
+}
+.menu{
+  font-family: 'LemonMilk';
+  color: white;
+  transition: all 2s;
+  font-size: 6rem;
+}
+/* .column::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(37, 37, 37, 0.13);
+} */
+.column{
+  width:100%; 
+  height:32em; 
+  background-position:top; 
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position:center; 
+  overflow: hidden;
+  /* background-attachment: fixed; */
+}
+.join{
+  color: white; 
+  background-color:rgb(34, 34, 34); 
+  font-size:2.25rem; 
+  font-weight: 100;
+  font-family:'Coolvetica';
+  margin: 1em;
+
+}
+
+.join:hover{
+  color: rgb(34, 34, 34); 
+  background-color:white; 
+}
+.column:hover{
+  transform: scale(1.1);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+/* .banner h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(16, 16, 16, 0.679);
+} */
+.favourite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10em;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  /* overflow: hidden; */
+}
+h3{
+  font-family: 'Coolvetica';
+  font-size: 5rem;
+
+  
+}
+.favourite-item:hover{
+  transform: scale(1.2);
+}
+.carousel-caption p{
+  font-size: 3rem;
+  font-family: 'Coolvetica';
+}
+
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:prespective(5em) translate(-50%,-50%);
+  transform:skewY(15deg);
+  transition:0.5s;
+}
+
+.center:hover{
+  transform:prespective(5em) translate(-50%,-50%);
+  transform:skewY(0deg);
+}
+
+.center h1 span {
+  position: absolute;
+  top: 5em;
+  left: 0;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 5rem; 
+  font-family: 'Coolvetica';
+  color: #fff;
+  transform-style: preserve-3d;
+  transition: 0.8s;
+}
+
+.center h1 span:nth-child(1) {
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+}
+
+.center h1 span:nth-child(2) {
+  color: #5E17EB;
+  transform: translate(-50%, -50%) skewX(-60deg);
+  left: -25px; /* Kurangi jarak untuk menyesuaikan skala */
+  clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+}
+
+.center h1 span:nth-child(3) {
+  transform: translate(-50%, -50%) skewY(0deg);
+  left: -30px; /* Kurangi jarak untuk menyesuaikan skala */
+  clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+}
+
+.center:hover h1 span:nth-child(2),
+.center:hover h1 span:nth-child(3) {
+  transform: translate(-50%, -50%) skewX(0deg);
+  left: 0;
+  color: #fff;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #0aa1dd;
+}
+
+.about p {
+    margin-top: 1em;
+    font-size: 2rem;
+    font-family: 'Coolvetica';
+    max-width: 45em;
+    text-align: center;
+    color: rgba(43, 43, 43, 0.76);
+    
+}
+h1{
+  font-family: 'Coolvetica';
+  font-size: 6.5rem;
+  font-weight: 400;
+}
